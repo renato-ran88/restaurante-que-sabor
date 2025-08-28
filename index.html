@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./app/style/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="./app/style/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="./dist/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="./app/js/script.js"></script>
-    <title>Restaurante</title>
+    <title>Restaurante Que Sabor</title>
 </head>
 <body>
     <div class="main">
         <header>
-            <img src="img/logo.png" alt="Logo que sabor" class="logo">
-            <nav class="menu">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Promo</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-            <input type="search" name="" id="">
+            <div class="container">
+                <img src="img/logo.png" alt="Logo que sabor" class="logo">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Promo</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <input type="search" name="" id="">
+            </div>
         </header>
 
         <section class="hero">
@@ -36,44 +42,121 @@
         </section>
 
         <section class="best-seller">
-            <h2 class="basic-title">Best Seller</h2>
-            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-            <div class="wrapper">
-                <div class="dish-box">
-                    <img src="img/dish-1.png" alt="">
-                    <p class="minor-title">Prato 1</p>
-                    <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="dish-box">
-                    <img src="img/dish-2.png" alt="">
-                    <p class="minor-title">Prato 1</p>
-                    <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="dish-box">
-                    <img src="img/dish-3.png" alt="">
-                    <p class="minor-title">Prato 1</p>
-                    <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="container">
+                <h2 class="basic-title">Best Seller</h2>
+                <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <div class="wrapper">
+                    <div class="dish-box">
+                        <img src="img/dish-1.png" alt="">
+                        <p class="minor-title">Prato 1</p>
+                        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="dish-box">
+                        <img src="img/dish-2.png" alt="">
+                        <p class="minor-title">Prato 1</p>
+                        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="dish-box">
+                        <img src="img/dish-3.png" alt="">
+                        <p class="minor-title">Prato 1</p>
+                        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="suggested-dish">
-            <div class="wrapper">
-                <div class="dish">
-                    <img src=""  alt="" class="suggestion-1">
-                </div>
-                <div class="text-box">
-                    <h2 class="title">Oriental Taste</h2>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-                    <button class="cta">Order Now</button>
+        <section class="suggested-dish first-suggestion">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="dish">
+                        <img src="img/oriental-dish.png"  alt="Comida oriental" class="suggestion-1">
+                    </div>
+                    <div class="text-box">
+                        <h2 class="title">Oriental Taste</h2>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                        <button class="cta">Order Now</button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="statistics"></section>
-        <section class="suggested-dish"></section>
-        <section class="testimonials"></section>
-        <section class="contant"></section>
-        <footer></footer>
+
+        <section class="statistics">
+            <h2 class="title">Statistics</h2>
+            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <div class="wrapper">
+                <div class="box">
+                    <span class="counter">123</span>
+                    <p class="attributes">Outlets</p>
+                </div>
+                <div class="box">
+                    <span class="counter">100</span>
+                    <p class="attributes">Chefs</p>
+                </div>
+                <div class="box">
+                    <span class="counter">300</span>
+                    <p class="attributes">Menus</p>
+                </div>
+                <div class="box">
+                    <span class="counter">30</span>
+                    <p class="attributes">Countries</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="suggested-dish second-suggestion">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="text-box">
+                        <h2 class="title">Oriental Taste</h2>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                        <button class="cta">Order Now</button>
+                    </div>
+                    <div class="dish">
+                        <img src="img/chicken-dish.png"  alt="Prato com Frango" class="suggestion-2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="slider">
+                <h2 class="title">Testimonials</h2>
+                <div class="slide">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                    <p class="customer-name">Lenora Fields</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="title">Subscribe</h2>
+            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <div class="wrapper">
+                <form>
+                    <input type="email" name="" id="" placeholder="Your E-mail">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="wrapper">
+                    <div class="collumn right-collumn">
+                        <h3 class="footer-title">Our Social Media</h3>
+                        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
+                    </div>
+                    <div class="media-wrapper">
+                        <ul>
+                            <li><a href="javascript:void(0);"><img src="img/instagram-icon.png" alt="Ícone Instagram"></a></li>
+                            <li><a href="javascript:void(0);"><img src="img/facebook-icon.png" alt="Ícone Facebook"></a></li>
+                            <li><a href="javascript:void(0);"><img src="img/twitter-icon.png" alt="Ícone Twitter"></a></li>
+                            <li><a href="javascript:void(0);"><img src="img/whatsapp-icon.png" alt="Ícone Whatsapp"></a></li>
+                        </ul>
+                    </div>
+                    <div class="collumn left-collumn"></div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
