@@ -1,0 +1,67 @@
+// PATHS
+$path-font:             '../fonts';
+$path-img:              '../images';
+
+// // GRID
+// $grid: {
+//     columns: 12;
+//     sm: 768px;
+//     md: 900px;
+//     lg: 1200px;
+
+//     gap: 2.34375%;
+//     middleGap: 2.34375% / 2;
+//     doubleGap: 2.34375% * 2;
+// }
+
+// MARGINS
+$small: 23px;
+$normal: 17px;
+$medium: 30px;
+$large: 96px;
+
+// .deskMargins() {
+//     $small: 34rem;
+//     $normal: 51rem;
+//     $medium: 102rem;
+//     $large: 118rem;
+// }
+
+// COLORS
+$color-1:               #f2ff00;
+$color-2:               #000;
+$color-3:               #ffff68;
+$color-4:               #666666;
+
+// Named variables
+$color-placeholder:     $color-2;
+$color-success:         $color-2;
+$color-error:           $color-2;
+
+$color-header:          $color-1;
+$color-form-news:       $color-1;
+$color-tooltip:         $color-1;
+
+$color-txt-1:           $color-2;
+
+$color-tlt-1:           $color-2;
+
+$color-link-1:          $color-2;
+
+$color-border-1:        $color-2;
+
+$yellow:          $color-1;
+
+// MEDIA BREAKPOINTS main.less
+$xs: 480px;
+$sm: 768px;
+$md: 1024px;
+$lg: 1920px;
+
+
+//Variáveis
+$bg-grey:       #303030;
+$txt-grey:      #333333;
+$txt-yellow:    #ffc200;
+$title:         'Grand Hotel';
+$txt:           'Montserrat';

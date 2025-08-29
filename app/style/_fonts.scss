@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('${path-font}/GrandHotel-Regular.woff2') format('woff2'),
+        url('${path-font}/GrandHotel-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('${path-font}/Montserrat-Bold.woff2') format('woff2'),
+        url('${path-font}/Montserrat-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('${path-font}/Montserrat-Regular.woff2') format('woff2'),
+        url('${path-font}/Montserrat-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('${path-font}/Montserrat-Thin.woff2') format('woff2'),
+        url('${path-font}/Montserrat-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
