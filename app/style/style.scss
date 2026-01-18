@@ -11,7 +11,6 @@ html {
 
 body {
     font-family: $txt;
-    background: $bg-grey;
     margin: 0 auto;
 }
 
@@ -174,6 +173,7 @@ header {
 // Best Seller
 
 .best-seller {
+    background: white;
     padding: 135px 0;
 
     .wrapper {
@@ -191,6 +191,24 @@ header {
     }
 }
 
-.best-seller {
-    background: white;
+// Suggested Dish
+
+.suggested-dish {
+    position: relative;
+    padding: 277px 0 90px 0;
+
+    &::before {
+        content: '';
+        width: 100%;
+        height: 387px;
+        background: url('../img/horizontal-pencil-up.png') no-repeat center;
+        background-size: cover;
+        position: absolute;
+        top: -90px;
+        left: 0;
+    }
+
+    .container {
+        background: $bg-grey;
+    }
 }
